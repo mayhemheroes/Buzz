@@ -1,6 +1,6 @@
-project: rnshah9/mayhem-buzz
+project: buzz
 target: bzzasm
 
 cmds:
-  - cmd: /repo/build/buzz/bzzasm @@ out.bo out.bdbg
+  - cmd: /repo/build/buzz/bzzasm /test.basm /dev/null /dev/null
     filepath: /test.basm
