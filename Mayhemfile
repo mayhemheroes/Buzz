@@ -2,5 +2,6 @@ project: buzz
 target: bzzasm
 
 cmds:
-  - cmd: /repo/build/buzz/bzzasm /test.basm /dev/null /dev/null
+    # this could cause the assembler to crash on certain assembly file inputs, indicating an unhandled edge case
+  - cmd: /install/bin/bzzasm /test.basm /dev/null /dev/null
     filepath: /test.basm
